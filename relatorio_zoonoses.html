@@ -1,0 +1,328 @@
+
+    <html>
+    <head>
+        <title>Relatório de Análise de Zoonoses</title>
+        <style>
+            body {font-family: Arial, sans-serif; margin: 40px;}
+            h1, h2 {text-align: center;}
+            img {display: block; margin-left: auto; margin-right: auto;}
+            table {width: 100%; border-collapse: collapse; margin-bottom: 40px;}
+            table, th, td {border: 1px solid #ddd; padding: 8px;}
+            th {background-color: #f2f2f2; text-align: left;}
+            tr:hover {background-color: #f5f5f5;}
+        </style>
+    </head>
+    <body>
+        <h1>Relatório de Análise de Zoonoses Transmitidas por Gatos</h1>
+        
+        <h2>Análise de Componentes Principais (PCA)</h2>
+        <img src="C:/Users/Hearthz Gaming/Documents/PYTHON -PI4\pca_plot.png" alt="PCA Scatter Plot" width="600">
+        <p>Variância explicada pelos componentes principais: [0.43885734 0.22933317]</p>
+        
+        <h2>Histograma da Primeira Coluna Numérica</h2>
+        <img src="C:/Users/Hearthz Gaming/Documents/PYTHON -PI4\hist_plot.png" alt="Histogram" width="600">
+        
+        <h2>Resultados da Regressão Linear</h2>
+        <img src="C:/Users/Hearthz Gaming/Documents/PYTHON -PI4\reg_plot.png" alt="Regression Results" width="600">
+        <p>Mean Squared Error: 804.114695203061</p>
+        <p>R-squared: -0.15653954511193335</p>
+        
+        <h2>Dados Originais (Primeiras 10 Linhas)</h2>
+        <table>
+            <thead>
+                <tr>
+                    
+                        <th>Gender</th>
+                    
+                        <th>Age</th>
+                    
+                        <th>Height (cm)</th>
+                    
+                        <th>Weight (kg)</th>
+                    
+                        <th>Social Class</th>
+                    
+                        <th>Profession</th>
+                    
+                        <th>Product Name</th>
+                    
+                        <th>Quantity</th>
+                    
+                        <th>Product Price</th>
+                    
+                        <th>Purchase Date</th>
+                    
+                        <th>Purchase Time</th>
+                    
+                </tr>
+            </thead>
+            <tbody>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>72</td>
+                        
+                            <td>170.5</td>
+                        
+                            <td>94.81</td>
+                        
+                            <td>B</td>
+                        
+                            <td>Technician</td>
+                        
+                            <td>Beef</td>
+                        
+                            <td>1</td>
+                        
+                            <td>84.78</td>
+                        
+                            <td>2024-05-29 00:00:00</td>
+                        
+                            <td>21:56:08</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>62</td>
+                        
+                            <td>178.46</td>
+                        
+                            <td>76.07</td>
+                        
+                            <td>C</td>
+                        
+                            <td>Salesperson</td>
+                        
+                            <td>Milk</td>
+                        
+                            <td>8</td>
+                        
+                            <td>97.91</td>
+                        
+                            <td>2024-06-12 00:00:00</td>
+                        
+                            <td>08:32:40</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Male</td>
+                        
+                            <td>32</td>
+                        
+                            <td>175.43</td>
+                        
+                            <td>87.66</td>
+                        
+                            <td>E</td>
+                        
+                            <td>Technician</td>
+                        
+                            <td>Milk</td>
+                        
+                            <td>10</td>
+                        
+                            <td>69.0</td>
+                        
+                            <td>2024-01-16 00:00:00</td>
+                        
+                            <td>22:09:34</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>20</td>
+                        
+                            <td>165.57</td>
+                        
+                            <td>64.55</td>
+                        
+                            <td>B</td>
+                        
+                            <td>Nurse</td>
+                        
+                            <td>Chicken</td>
+                        
+                            <td>8</td>
+                        
+                            <td>9.06</td>
+                        
+                            <td>2024-04-10 00:00:00</td>
+                        
+                            <td>03:54:59</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>70</td>
+                        
+                            <td>167.86</td>
+                        
+                            <td>91.1</td>
+                        
+                            <td>D</td>
+                        
+                            <td>Engineer</td>
+                        
+                            <td>Beef</td>
+                        
+                            <td>1</td>
+                        
+                            <td>94.98</td>
+                        
+                            <td>2024-07-17 00:00:00</td>
+                        
+                            <td>10:15:19</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>54</td>
+                        
+                            <td>191.88</td>
+                        
+                            <td>50.62</td>
+                        
+                            <td>E</td>
+                        
+                            <td>Technician</td>
+                        
+                            <td>Yogurt</td>
+                        
+                            <td>4</td>
+                        
+                            <td>92.54</td>
+                        
+                            <td>2024-07-07 00:00:00</td>
+                        
+                            <td>20:34:10</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>58</td>
+                        
+                            <td>162.55</td>
+                        
+                            <td>60.57</td>
+                        
+                            <td>C</td>
+                        
+                            <td>Lawyer</td>
+                        
+                            <td>Cheese</td>
+                        
+                            <td>5</td>
+                        
+                            <td>40.12</td>
+                        
+                            <td>2024-06-06 00:00:00</td>
+                        
+                            <td>10:14:27</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>76</td>
+                        
+                            <td>178.03</td>
+                        
+                            <td>73.34</td>
+                        
+                            <td>D</td>
+                        
+                            <td>Doctor</td>
+                        
+                            <td>Banana</td>
+                        
+                            <td>2</td>
+                        
+                            <td>36.77</td>
+                        
+                            <td>2024-04-27 00:00:00</td>
+                        
+                            <td>14:06:32</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Female</td>
+                        
+                            <td>77</td>
+                        
+                            <td>150.62</td>
+                        
+                            <td>105.27</td>
+                        
+                            <td>A</td>
+                        
+                            <td>Accountant</td>
+                        
+                            <td>Tea</td>
+                        
+                            <td>5</td>
+                        
+                            <td>12.5</td>
+                        
+                            <td>2024-07-04 00:00:00</td>
+                        
+                            <td>19:42:24</td>
+                        
+                    </tr>
+                
+                    <tr>
+                        
+                            <td>Male</td>
+                        
+                            <td>52</td>
+                        
+                            <td>187.08</td>
+                        
+                            <td>100.29</td>
+                        
+                            <td>A</td>
+                        
+                            <td>Lawyer</td>
+                        
+                            <td>Cheese</td>
+                        
+                            <td>9</td>
+                        
+                            <td>1.37</td>
+                        
+                            <td>2024-05-19 00:00:00</td>
+                        
+                            <td>09:32:41</td>
+                        
+                    </tr>
+                
+            </tbody>
+        </table>
+        
+        <h2>Conclusão</h2>
+        <p>Este relatório apresentou uma análise abrangente dos dados de zoonoses transmitidas por gatos na região metropolitana de São Paulo. Várias técnicas, incluindo PCA e regressão linear, foram utilizadas para explorar os dados e fornecer insights valiosos.</p>
+    </body>
+    </html>
+    
